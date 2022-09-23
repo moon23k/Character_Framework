@@ -6,15 +6,15 @@ A large amount of data is essential for training deep learning models. However, 
 
 ## Translation Data Augmentaion
 
-**Back Translation via Google Translator**
+**Back Translation**
+
+Machine translation is an NLP field that is already well serviced. In particular, large companies such as google and naver are showing very good performance. Obtain and organize the translation of the original text through Web Scraping.
 
 <br>
 
-**Back Translation via Naver Papago Translator**
+**Generate Translation**
 
-<br>
-
-**Back Translation via Pre-Trained Model**
+This Methodology generate new translation through a pre-trained model trained on a free usable dataset. The availability of the generated data is judged through the Discriminator, which determines the naturalness of the translation.
 
 <br>
 
@@ -22,7 +22,15 @@ A large amount of data is essential for training deep learning models. However, 
 <br>
 
 ## Dialogue Data Augmentation
+Conversation consists of utterances and responses to those utterances. Generating only utterances is not suitable as data for training. Therefore, data generation proceeds in two ways so that data can consist of pairs of utterances and answers. And it uses Discriminator to determine whether it is suitable as a data pair.
 
+<br>
+
+**Generate Utterance**
+
+<br>
+
+**Generate Reply**
 
 
 <br>
@@ -30,5 +38,15 @@ A large amount of data is essential for training deep learning models. However, 
 
 
 ## Summarization Data Augmentaion
+
+The Document Summarization task requires data that consists of a long text and a summary of it. To this end, data augmentation of Summarization consists of a total of two steps. First, it finds available long text data and web scrapes it. Then, a summary of these texts is generated through a pre-trained model.
+
+<br>
+
+**Scraping Documents**
+
+<br>
+
+**Generate Summary**
 
 <br>
