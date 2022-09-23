@@ -50,3 +50,10 @@ The Document Summarization task requires data that consists of a long text and a
 **Generate Summary**
 
 <br>
+<br>
+
+## TBD
+### OCR
+In addition to data accessible on the web, various texts exist in our real life. And most of the text is written on paper. Among these, text that is suitable for the user's intention and is free from copyright can be extracted through OCR. Of course, a series of steps are additionally required to transfer the hard copy to the computer, but it is useful when data is desperately needed.
+
+
