@@ -4,7 +4,7 @@ A large amount of data is essential for training deep learning models. However, 
 <br>
 <br>
 
-## Translation Data Augmentaion
+## Translation
 
 **Back Translation**
 
@@ -21,7 +21,7 @@ This Methodology generate new translation through a pre-trained model trained on
 <br>
 <br>
 
-## Dialogue Data Augmentation
+## Dialogue
 Conversation consists of utterances and responses to those utterances. Generating only utterances is not suitable as data for training. Therefore, data generation proceeds in two ways so that data can consist of pairs of utterances and answers. And it uses Discriminator to determine whether it is suitable as a data pair.
 
 <br>
@@ -37,8 +37,7 @@ Conversation consists of utterances and responses to those utterances. Generatin
 <br>
 
 
-## Summarization Data Augmentaion
-
+## Summarization
 The Document Summarization task requires data that consists of a long text and a summary of it. To this end, data augmentation of Summarization consists of a total of two steps. First, it finds available long text data and web scrapes it. Then, a summary of these texts is generated through a pre-trained model.
 
 <br>
@@ -48,6 +47,12 @@ The Document Summarization task requires data that consists of a long text and a
 <br>
 
 **Generate Summary**
+
+<br>
+<br>
+
+## Summarization + Translation
+To train a complex model of Summarization and Translation.
 
 <br>
 <br>
