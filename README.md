@@ -1,6 +1,15 @@
-## Back Translation
+## Characteristic Dialogue Generation Framework
 
 <br><br>
+
+## Strategy
+
+<br><br>
+
+## Experimental Setups
+
+<br><br>
+
 
 ## Result
 
